@@ -826,7 +826,8 @@ strong {
     .featured-projects .project {
         width:100%;
         display: block;
-        margin-bottom: 70px
+        margin-bottom: 70px;
+        margin-top: 25px;
     }
 }
 
@@ -865,7 +866,7 @@ strong {
     margin-left: -5%
 }
 
-.featured-projects .project__pic img {
+/* .featured-projects .project__pic img {
     width: 100%;
     max-width: 100%;
     vertical-align: bottom
@@ -876,7 +877,7 @@ strong {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     margin-left: 30px
-}
+} */
 .featured-projects .project__used__item {
     display: inline-block;
     margin: 3px 3px 3px 0;
@@ -890,16 +891,17 @@ strong {
     background: 0 0
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .featured-projects .project__caption {
         width:100%;
         margin-top: 25px;
         margin-left: 0
     }
-}
+} */
 
 .featured-projects .project__name {
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    margin-top: 25px;
 }
 
 .featured-projects .project__name a {
