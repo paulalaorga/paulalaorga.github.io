@@ -806,7 +806,6 @@ strong {
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 100px;
-    margin-left: -5%;
     width: 125%
 }
 
@@ -826,8 +825,8 @@ strong {
     .featured-projects .project {
         width:100%;
         display: block;
-        margin-bottom: 70px;
-        margin-top: 25px;
+        max-width: 600px;
+        margin-bottom: 50px
     }
 }
 
@@ -849,7 +848,7 @@ strong {
     display: block
 }
 
-.featured-projects .project__pic.phones a {
+/* .featured-projects .project__pic.phones a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -864,7 +863,7 @@ strong {
 
 .featured-projects .project__pic.phones .phone:first-of-type {
     margin-left: -5%
-}
+} */
 
 /* .featured-projects .project__pic img {
     width: 100%;
@@ -1073,12 +1072,12 @@ strong {
 
 @media screen and (max-width: 850px) {
     .footer__links a .text {
-        display:none
+        display:inline
     }
 }
 
 .footer__links img {
-    display: none;
+    display: inline;
     width: 22px
 }
 
