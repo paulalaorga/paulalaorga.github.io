@@ -806,7 +806,8 @@ strong {
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 100px;
-    width: 125%
+    width: 125%;
+    max-width: 600px;
 }
 
 @media screen and (max-width: 1280px) {
